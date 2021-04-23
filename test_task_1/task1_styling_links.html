@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Styling links</title>
+    <style type="text/css">
+      /* Write your CSS solution here (do not edit the surrounding HTML) */
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      a:before {
+        content: "\003e\00a0";
+      }
+
+      a:after {
+        content: "\00a0\003c";
+      }
+
+      a:hover {
+        cursor: help;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://backendless.com/docs/codeless/">Check documentation</a>
+  </body>
+</html>
